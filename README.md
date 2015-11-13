@@ -21,7 +21,7 @@ A biblioteca PagSeguro em PHP é um conjunto de classes de domínio que facilita
 Requisitos
 ----------
 
- - [PHP] 5.3.3+
+ - [PHP] 5.4.27+
  - [SPL]
  - [cURL]
  - [DOM]
@@ -34,7 +34,19 @@ Instalação
  - Descompacte os arquivos em seu computador;
  - Dentro do diretório *source* existem dois diretórios: o *examples* e o *PagSeguroLibrary*. O diretório *examples* contém exemplos de chamadas utilizando a API e o diretório *PagSeguroLibrary* contém a biblioteca propriamente dita. Caso queira importar somente a biblioteca, faça upload do diretório *PagSeguroLibrary* e inclua a classe *PagSeguroLibrary.php* em seu projeto. Essa classe se encarregará de importar todas as funcionalidades da biblioteca no seu sistema.
 
-Alternativamente, é possível utilizar o Composer para carregar a biblioteca (pagseguro/php).
+
+Instalação Via Composer
+
+ - Alternativamente, é possível utilizar o [Composer] para carregar a biblioteca (pagseguro/php).
+```composer.json
+{
+    "require": {
+        "pagseguro/php": "@stable"
+    }
+}
+
+
+```
 
 
 Configuração
@@ -198,3 +210,5 @@ Achou e corrigiu um bug ou tem alguma feature em mente e deseja contribuir?
   [DOM]: http://php.net/manual/en/book.dom.php
   [GitHub]: https://github.com/pagseguro/php/
   [documentação oficial]: https://pagseguro.uol.com.br/v2/guia-de-integracao/tutorial-da-biblioteca-pagseguro-em-php.html
+  [Composer]: https://getcomposer.org
+  [pagckagist]: https://packagist.org/packages/pagseguro/php
