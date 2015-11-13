@@ -37,7 +37,7 @@ Instalação
 
 Instalação via Composer
 
- - Alternativamente, é possível utilizar o [Composer] para carregar a biblioteca (pagseguro/php).
+ - Alternativamente, é possível utilizar o [Composer] para carregar a biblioteca ([pagseguro/php]).
 ```composer.json
 {
     "require": {
